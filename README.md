@@ -1,0 +1,1 @@
+this web based project is about a quiz web this is my first project project on github and its a quiz app which asks a question and shows four answers and by clicking on answers it shows  that the answer is correct or false and you can go to the next  question . At the last it shows the score you earned by your true answers 
