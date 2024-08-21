@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="main">
+        <section class="section" id="section1">
+            <div class="headingBox">
+                <h1> Quiz</h1>
+            </div>
+        </section>
+        <section class="section" id="section2">
+            <div class="questionBox">
+                <h4 id="question"></h4>
+            </div>
+            <div class="answerBox">
+
+            </div>
+        </section>
+        <section class="section" id="section3">
+            <div class="submitBox">
+                <button class="nextBtn" onclick="nextQuestion()">Next</button>
+            </div>
+        </section>
+    </main>
+    <div class="start">
+        <div class="startquizBtn">
+            <button id="startQuiz">Start Quiz</button>
+        </div>
+    </div>
+    <div class="showScore">
+        <h1 id="scoreHeading"></h1>
+    </div>
+    <script src="script1.js"></script>
+</body>
+
+</html>
